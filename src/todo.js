@@ -1,6 +1,6 @@
 let todos = [];
 
-function addTodo(task) {
+function addTodo(task) { // This change is from master branch
   todos.push(task);
   return todos;
 }
