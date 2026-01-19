@@ -13,5 +13,6 @@ function removeTodo(index) {
 function listTodos() {
   return todos;
 }
-
+// This is a test comment for Git practice
+console.log("Todo App is running...");
 module.exports = { addTodo, removeTodo, listTodos };
